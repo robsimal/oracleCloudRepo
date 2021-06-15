@@ -36,7 +36,7 @@ public class MyResource {
     }
 
     	//Trabajar con query string
-    //http://localhost:8080/proyecto/rest/saludo?referencia=1234&clave=valor&clave=valor
+    //http://localhost:8080/proyecto/rest/saludo?referencia=1234
     @PUT
     @Path("/query")
     public Response leerQueryString(@QueryParam("referencia")  int ref) {
